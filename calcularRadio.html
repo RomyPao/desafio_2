@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular radio</title>
+
+</head>
+
+<body>
+    <!--Calcula el área de un círculo.-->
+    <form name="formulario1">
+        <table style="text-align: left; margin-left: auto; margin-right: auto;">
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="radio">Ingresa el valor de radio:</label>
+                    </td>
+                    <td>
+                        <input name="radio" required="required" step="0.001" type="number" />
+                    </td>
+                </tr>
+                <tr style="text-align: center;">
+                    <td colspan="2" rowspan="1">
+                        <input value="Calcular" type="button" onclick="algoritmo();" />
+                        <input type="reset" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+    <script src="calcularRadio.js"></script>
+</body>
+
+</html>
